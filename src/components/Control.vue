@@ -6,7 +6,7 @@
 
 import {mapMutations} from 'vuex'
 import L from 'leaflet'
-
+// hello
 export default{
     methods:{
         ...mapMutations([
