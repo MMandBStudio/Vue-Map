@@ -2,110 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e22628-b0b8-4aa2-b9d4-68856c331a05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-1-20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-20-40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-40-60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-60-80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-80-100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-notsurveyed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-bench.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-desire-line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-easy-going-trail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-flush-saturated-soil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-footbridge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-information-board.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-main-footpath.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-secondary-footpath.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/trees/keybb-good-example.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/trees/keybb-notable-tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/trees/keybb-possible-veteran.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/trees/keytree-active-coppice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/trees/keytree-standing-dead-wood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-golden.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-honeysuckle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-lesser.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-wood-anemone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-wood-sorrel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/bluebell/keybb-1-20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/bluebell/keybb-20-40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/bluebell/keybb-40-60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/bluebell/keybb-60-80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/bluebell/keybb-80-100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/bluebell/keybb-notsurveyed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/standard/keymap-bench.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/standard/keymap-desire-line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/standard/keymap-easy-going-trail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/standard/keymap-flush-saturated-soil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/standard/keymap-footbridge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/standard/keymap-information-board.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/standard/keymap-main-footpath.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/standard/keymap-secondary-footpath.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/trees/keybb-good-example.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/trees/keybb-notable-tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/trees/keybb-possible-veteran.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/trees/keytree-active-coppice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/trees/keytree-standing-dead-wood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/wild-flowers/keywf-golden.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/wild-flowers/keywf-honeysuckle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/wild-flowers/keywf-lesser.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/wild-flowers/keywf-wood-anemone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/key_assets/wild-flowers/keywf-wood-sorrel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/bluebell/keybb-1-20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/bluebell/keybb-20-40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/bluebell/keybb-40-60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/bluebell/keybb-60-80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/bluebell/keybb-80-100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/bluebell/keybb-notsurveyed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/standard/keymap-bench.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/standard/keymap-desire-line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/standard/keymap-easy-going-trail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/standard/keymap-flush-saturated-soil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/standard/keymap-footbridge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/standard/keymap-information-board.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/standard/keymap-main-footpath.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/standard/keymap-secondary-footpath.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/trees/keybb-good-example.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/trees/keybb-notable-tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/trees/keybb-possible-veteran.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/trees/keytree-active-coppice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/trees/keytree-standing-dead-wood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/wild-flowers/keywf-golden.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/wild-flowers/keywf-honeysuckle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/wild-flowers/keywf-lesser.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/wild-flowers/keywf-wood-anemone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/key_assets/wild-flowers/keywf-wood-sorrel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.ccd5fd3ed557b06963df3fded5a5aa45.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.ccd5fd3ed557b06963df3fded5a5aa45.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.e3f12d90fd9d19d5b3a9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.e3f12d90fd9d19d5b3a9.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.e1a16a9f4c1dc4f53bf0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.e1a16a9f4c1dc4f53bf0.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.655fab4e4f941aeda3a2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.655fab4e4f941aeda3a2.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/keys/BluebellKey.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/keys/TreeKey.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/keys/WildFlowerKey.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.164796db8b26e05f4c54de513e88b43c.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.164796db8b26e05f4c54de513e88b43c.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.aa81794da4d00efc83dd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.aa81794da4d00efc83dd.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.2089595918cc3f27caf3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.2089595918cc3f27caf3.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.08d60936df4a97e32028.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.08d60936df4a97e32028.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-1-20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-20-40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-40-60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-60-80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-80-100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/bluebell/keybb-notsurveyed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-bench.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-desire-line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-easy-going-trail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-flush-saturated-soil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-footbridge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-information-board.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-main-footpath.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/standard/keymap-secondary-footpath.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/trees/keybb-good-example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/trees/keybb-notable-tree.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/trees/keybb-possible-veteran.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/trees/keytree-active-coppice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/trees/keytree-standing-dead-wood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-golden.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-honeysuckle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-lesser.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-wood-anemone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/key_assets/wild-flowers/keywf-wood-sorrel.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Layout.vue" afterPath="$PROJECT_DIR$/src/Layout.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Control.vue" afterPath="$PROJECT_DIR$/src/components/Control.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Key.vue" afterPath="$PROJECT_DIR$/src/components/Key.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TileLayer.vue" afterPath="$PROJECT_DIR$/src/components/TileLayer.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TileSelect.vue" afterPath="$PROJECT_DIR$/src/components/TileSelect.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/keys/MapKey.vue" afterPath="$PROJECT_DIR$/src/components/keys/MapKey.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,14 +47,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.27060932">
+    <splitter split-orientation="vertical" split-proportion="0.47898552">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="TileLayer.vue" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TileLayer.vue" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TileLayer.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="256">
+                  <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
                   <folding>
                     <element signature="e#157#193#0" expanded="true" />
                   </folding>
@@ -141,10 +62,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1120">
+                <state relative-caret-position="928">
                   <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
                   <folding />
                 </state>
@@ -185,21 +106,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Layout.vue" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Layout.vue" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Layout.vue">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="544">
-                  <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -819,7 +730,7 @@
       <workItem from="1502795108604" duration="15673000" />
       <workItem from="1502880816677" duration="1838000" />
       <workItem from="1502884919183" duration="912000" />
-      <workItem from="1505203726998" duration="20561000" />
+      <workItem from="1505203726998" duration="20822000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1502885150777</created>
@@ -828,11 +739,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502885150777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished main functionality">
+      <created>1505229231177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505229231177</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38984000" />
+    <option name="totallyTimeSpent" value="39245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="27" width="1200" height="1860" extended-state="6" />
@@ -845,12 +763,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978094" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956523" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.339254" sideWeight="0.7069565" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.339254" sideWeight="0.7026087" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18294849" sideWeight="0.67826086" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18294849" sideWeight="0.67391306" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.339254" sideWeight="0.29304346" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.339254" sideWeight="0.2973913" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19478261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -912,7 +830,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="x" />
-    <option name="LAST_COMMIT_MESSAGE" value="x" />
+    <MESSAGE value="Finished main functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished main functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1042,14 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/keys/WildFlowerKey.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1116,28 +1027,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TileLayer.vue">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#157#193#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Layout.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/components/TileLayer.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="e#157#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
           <folding />
         </state>
       </provider>
