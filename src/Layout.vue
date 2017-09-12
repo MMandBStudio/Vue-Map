@@ -7,20 +7,17 @@
     <l-marker :position="center" :title="title" :opacity="opacity" :draggable="draggable">
       <l-tooltip content="Find lat lng"></l-tooltip>
     </l-marker>
+    <!--
     <l-marker :position="marker" :title="title" :opacity="opacity" :draggable="false">
       <l-popup content="a popup"></l-popup>
     </l-marker>
-
+    -->
   </l-map>
-
-  <!--<l-map id="next">
-  </l-map>-->
-  </div>
+</div>
 </template>
 
 <script>
 import '../node_modules/leaflet/dist/leaflet.css';
-
 
 export default {
   data() {

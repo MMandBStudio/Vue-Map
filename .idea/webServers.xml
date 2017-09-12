@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1c7b725a-7304-4621-9b35-8d3423a17934" name="map.vooders.com" url="http://map.vooders.com">
+        <fileTransfer host="vooders.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/public_html/franmap" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

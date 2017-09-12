@@ -1,27 +1,54 @@
 <template>
   <div class="more-info">
-      <div class="controls" @click="open = !open"><p class="control-text">KEY</p></div>
-      <transition
-        v-on:enter="show"
-        v-on:leave="hide"
-        v-bind:css="false"
-      >
-      <div v-if="open" class="content">
-        <div class="header">
-          <span class="header-text">{{headerText}}</span>
-        </div>
-        <map-key></map-key>
-
+      <div class="controls"
+           @click="open = !open"
+           v-bind:style="{ backgroundColor: borderColour }">
+          <p class="control-text">KEY</p>
       </div>
-    </transition>
+
+      <transition
+          v-on:enter="show"
+          v-on:leave="hide"
+          v-bind:css="false">
+          <div v-if="open" class="content">
+              <div class="header"
+                   v-bind:style="{ backgroundColor: borderColour }">
+                  <span class="header-text">{{headerText}}</span>
+              </div>
+              <div class="scrolling" v-if="key == 0">
+                  <map-key></map-key>
+              </div>
+              <div class="scrolling" v-else-if="key === 1">
+                <bluebell-key></bluebell-key>
+              </div>
+              <div class="scrolling" v-else-if="key === 2">
+                <wild-flower-key></wild-flower-key>
+              </div>
+              <div class="scrolling" v-else-if="key === 3">
+                <tree-key></tree-key>
+              </div>
+          </div>
+      </transition>
   </div>
 </template>
 
 <script>
+  import { mapMutations } from 'vuex';
+  import { mapGetters } from 'vuex';
   import Velocity from 'velocity-animate'
   import MapKey from './keys/MapKey.vue'
+  import WildFlowerKey from './keys/WildFlowerKey.vue'
+  import BluebellKey from './keys/BluebellKey.vue'
+  import TreeKey from './keys/TreeKey.vue'
 
   export default {
+    computed: {
+      ...mapGetters([
+        'key',
+        'borderColour'
+      ])
+    },
+
     data() {
       return {
         open: true,
@@ -30,19 +57,20 @@
     },
 
     components: {
-      MapKey
+      MapKey,
+      WildFlowerKey,
+      BluebellKey,
+      TreeKey
     },
 
     methods: {
       show: function (el, done) {
-        console.log('showing');
           Velocity(el, { width: "200px" }, { duration: 600, easing: "linear", complete: done })
       },
       hide: function (el, done) {
-        console.log('hiding');
         Velocity(el, {width: "0"}, {duration: 600, easing: "linear", complete: done})
       },
-    }
+    },
   }
 </script>
 
@@ -54,15 +82,25 @@
     height: 80%;
     z-index: 5000;
     background-color: #E5E5E5;
-    opacity: 0.8;
+    opacity: 1;
     max-width: 220px;
     min-width: 15px;
+    overflow: hidden;
 
     .content {
       padding-left: 15px;
+      height: 100%;
+
+      .scrolling {
+        height: 90%;
+        margin-bottom: 10px;
+        overflow: scroll;
+      }
+
       .header {
+        height: 10%;
         background-color: #70C5FB;
-        min-width: 100%;
+        min-width: 200px;
 
         .header-text {
           color: #000;
