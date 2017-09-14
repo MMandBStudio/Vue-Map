@@ -5,7 +5,7 @@
       <paths name="map.vooders.com">
         <serverdata>
           <mappings>
-            <mapping deploy="/var/www/public_html/franmap" local="$PROJECT_DIR$/dist" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$/dist" web="/" />
           </mappings>
         </serverdata>
       </paths>

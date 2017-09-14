@@ -4,14 +4,9 @@
     :attributionControl="attributionControl" :zoomend="zoomend">
     <l-tilelayer :url="url" :attribution="attribution"></l-tilelayer>
 
-    <l-marker :position="center" :title="title" :opacity="opacity" :draggable="draggable">
+    <l-marker :position="marker" :title="title" :opacity="opacity" :draggable="draggable">
       <l-tooltip content="Find lat lng"></l-tooltip>
     </l-marker>
-    <!--
-    <l-marker :position="marker" :title="title" :opacity="opacity" :draggable="false">
-      <l-popup content="a popup"></l-popup>
-    </l-marker>
-    -->
   </l-map>
 </div>
 </template>
@@ -23,8 +18,9 @@ export default {
   data() {
     return {
       zoom: 2,
+
       center: [50.00, -30.0],
-      marker: [20.00, -30.00],
+      marker: [64.47279382008166, 140.97656250000003],
       minZoom: 2,
       maxZoom: 4,
       url: '/static/assets/tiles/none/{z}/{x}/{y}.png',

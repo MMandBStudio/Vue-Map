@@ -10,8 +10,9 @@ const store = new Vuex.Store({
   state: {
     // Holds the ID of the key component to display
     key: 0,
+    keyString: 'Map',
     // Holds the border colour of the kay drawer
-    borderColour: '#70C5FB'
+    borderColour: '#afdffd'
   },
   getters: {
     /**
@@ -22,6 +23,17 @@ const store = new Vuex.Store({
     getKey(state) {
       return matchKey => {
         return state.key === matchKey;
+      }
+    },
+
+    /**
+     * Get the current key string
+     * @param state
+     */
+    keyString: state => state.keyString,
+    getKey(state) {
+      return matchKeyString => {
+        return state.keyString === matchKeyString;
       }
     },
 
@@ -45,17 +57,22 @@ const store = new Vuex.Store({
      */
     setKey(state, keyString) {
       // Set new ID to 0, then change depending on the string supplied
-      let newKey = 0
+      let newKey = 0, string = 'Map'
+
       if(keyString === 'tree') {
         newKey = 3
+        string = 'Tree'
       }
       else if(keyString === 'wildflower') {
         newKey = 2
+        string = 'Wildflower'
       }
       else if(keyString === 'bluebell') {
         newKey = 1
+        string = 'Bluebell'
       }
       state.key = newKey;
+      state.keyString = string;
     },
 
     /**
@@ -66,15 +83,15 @@ const store = new Vuex.Store({
      */
     setBorderColour(state, keyString) {
       // Set new hex to the default, then change depending on the string supplied
-      let newColour = '#70C5FB'
+      let newColour = '#afdffd'
       if(keyString === 'tree') {
-        newColour = '#2EA31E'
+        newColour = '#8bcc82'
       }
       else if(keyString === 'wildflower') {
-        newColour = '#FABF71'
+        newColour = '#fddbaf'
       }
       else if(keyString === 'bluebell') {
-        newColour = '#7263DA'
+        newColour = '#b1a8ea'
       }
       state.borderColour = newColour;
     }

@@ -3,7 +3,7 @@
       <p class="icon standing-dead">Standing dead wood / habitat tree</p>
       <p class="icon active">Active coppice</p>
       <p class="icon notable">Notable Tree</p>
-      <p class="icon possible">Possible Veteran</p>
+      <p class="icon possible" style="padding-bottom: 15px">Possible Veteran</p>
       <p>A.c. field maple (Acer campestre)</p>
       <p>A.g. alder (Alnus glutinosa)</p>
       <p>A.h. horse chestnut (Aesculus hippocastanum)</p>
@@ -29,7 +29,7 @@
       <p>S.ar. whitebeam (Sorbus aria)</p>
       <p>S.n. elder (Sambucus nigra)</p>
       <p>T.spp. lime (Tilia species)</p>
-      <p>T.b. yew (Taxus baccata)</p>
+      <p style="padding-bottom: 45px">T.b. yew (Taxus baccata)</p>
   </div>
 </template>
 
@@ -40,6 +40,7 @@
     overflow: hidden;
     min-width: 200px;
     padding-top: 5px;
+    margin-right: 5px;
     padding-bottom: 5px;
 
     p {

@@ -1,9 +1,11 @@
 <template>
-  <div class="more-info">
+  <div class="more-info"
+       v-bind:style="{ borderColor: borderColour }">
+
       <div class="controls"
            @click="open = !open"
            v-bind:style="{ backgroundColor: borderColour }">
-          <p class="control-text">KEY</p>
+          <p class="control-text">TOGGLE&nbsp;&nbsp;KEY&nbsp;&nbsp;ON&nbsp;/&nbsp;OFF</p>
       </div>
 
       <transition
@@ -13,7 +15,7 @@
           <div v-if="open" class="content">
               <div class="header"
                    v-bind:style="{ backgroundColor: borderColour }">
-                  <span class="header-text">{{headerText}}</span>
+                  <span class="header-text">{{keyString}} Key</span>
               </div>
               <div class="scrolling" v-if="key == 0">
                   <map-key></map-key>
@@ -45,14 +47,14 @@
     computed: {
       ...mapGetters([
         'key',
+        'keyString',
         'borderColour'
       ])
     },
 
     data() {
       return {
-        open: true,
-        headerText: 'Map Key'
+        open: false
       };
     },
 
@@ -65,10 +67,10 @@
 
     methods: {
       show: function (el, done) {
-          Velocity(el, { width: "200px" }, { duration: 600, easing: "linear", complete: done })
+          Velocity(el, { width: "220px" }, { duration: 300, easing: "linear", complete: done })
       },
       hide: function (el, done) {
-        Velocity(el, {width: "0"}, {duration: 600, easing: "linear", complete: done})
+        Velocity(el, {width: "0"}, {duration: 300, easing: "linear", complete: done})
       },
     },
   }
@@ -83,22 +85,23 @@
     z-index: 5000;
     background-color: #E5E5E5;
     opacity: 1;
-    max-width: 220px;
+    max-width: 240px;
     min-width: 15px;
-    overflow: hidden;
+    overflow-y: hidden;
+    border: 2px solid #afdffd;
 
     .content {
       padding-left: 15px;
       height: 100%;
 
       .scrolling {
-        height: 90%;
+        height: 100%;
         margin-bottom: 10px;
-        overflow: scroll;
+        overflow-y: scroll;
       }
 
       .header {
-        height: 10%;
+        height: 30px;
         background-color: #70C5FB;
         min-width: 200px;
 
@@ -107,7 +110,7 @@
           padding: 5px;
           margin: 0;
           font-size: 20px;
-          font-weight: 800;
+          font-weight: bold;
         }
       }
     }
@@ -125,7 +128,9 @@
         transform: rotate(270deg);
         transform-origin: left top 0;
         position: relative;
-        top: 50%;
+        text-align: center;
+        font-weight: bold;
+        top: 65%;
         left: -1px;
       }
 
