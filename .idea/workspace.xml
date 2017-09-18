@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e22628-b0b8-4aa2-b9d4-68856c331a05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.ee5832bf04079bcb237344657f876c8b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.ee5832bf04079bcb237344657f876c8b.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.642b819d4b7eac60ef95.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.642b819d4b7eac60ef95.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.d8789d2eadf6ecc08715.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.d8789d2eadf6ecc08715.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.8a0175128ecf9ee85722.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.8a0175128ecf9ee85722.js.map" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.ccd5fd3ed557b06963df3fded5a5aa45.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.ccd5fd3ed557b06963df3fded5a5aa45.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.e3f12d90fd9d19d5b3a9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.e3f12d90fd9d19d5b3a9.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.e1a16a9f4c1dc4f53bf0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.e1a16a9f4c1dc4f53bf0.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.655fab4e4f941aeda3a2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.655fab4e4f941aeda3a2.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.ae7311315f929759e7426d793b1ecefa.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.ae7311315f929759e7426d793b1ecefa.css.map" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.ee5832bf04079bcb237344657f876c8b.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.ee5832bf04079bcb237344657f876c8b.css.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Layout.vue" afterPath="$PROJECT_DIR$/src/Layout.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/app.642b819d4b7eac60ef95.js.map" afterPath="$PROJECT_DIR$/dist/static/js/app.642b819d4b7eac60ef95.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/manifest.d8789d2eadf6ecc08715.js.map" afterPath="$PROJECT_DIR$/dist/static/js/manifest.d8789d2eadf6ecc08715.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Key.vue" afterPath="$PROJECT_DIR$/src/components/Key.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TileSelect.vue" afterPath="$PROJECT_DIR$/src/components/TileSelect.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/keys/TreeKey.vue" afterPath="$PROJECT_DIR$/src/components/keys/TreeKey.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +49,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="726">
-                  <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+                <state relative-caret-position="496">
+                  <caret line="93" column="29" lean-forward="false" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -78,7 +63,7 @@
           <file leaf-file-name="TreeKey.vue" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/keys/TreeKey.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="496">
+                <state relative-caret-position="-128">
                   <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
                   <folding>
                     <element signature="n#style#0;n#p#3;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -120,8 +105,8 @@
           <file leaf-file-name="Key.vue" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Key.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+                <state relative-caret-position="-976">
+                  <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -218,8 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,7 +255,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -719,7 +708,9 @@
       <workItem from="1505297245830" duration="4730000" />
       <workItem from="1505325885497" duration="3469000" />
       <workItem from="1505376120624" duration="1988000" />
-      <workItem from="1505385614827" duration="39000" />
+      <workItem from="1505385614827" duration="700000" />
+      <workItem from="1505726751604" duration="1467000" />
+      <workItem from="1505733317841" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1502885150777</created>
@@ -742,11 +733,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505229397223</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Styling &amp; final tweaks">
+      <created>1505385691158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505385691158</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51807000" />
+    <option name="totallyTimeSpent" value="54291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="27" width="1200" height="1860" extended-state="6" />
@@ -759,14 +757,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978094" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956523" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3428064" sideWeight="0.68956524" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19360569" sideWeight="0.6721739" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18251625" sideWeight="0.6478261" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18235642" sideWeight="0.6347826" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3428064" sideWeight="0.3104348" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19360569" sideWeight="0.32782608" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20086956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19652174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -779,7 +777,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16281824" sideWeight="0.53913045" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7133758" sideWeight="0.53296703" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -829,7 +827,8 @@
     <MESSAGE value="x" />
     <MESSAGE value="Finished main functionality" />
     <MESSAGE value="Removed Assets dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Assets dir" />
+    <MESSAGE value="Styling &amp; final tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling &amp; final tweaks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1239,7 +1238,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/keys/TreeKey.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="-128">
           <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#p#3;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -1247,18 +1246,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Key.vue">
+    <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="496">
+          <caret line="93" column="29" lean-forward="false" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Key.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+        <state relative-caret-position="-976">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding />
         </state>
       </provider>
