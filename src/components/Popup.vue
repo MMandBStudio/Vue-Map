@@ -1,5 +1,5 @@
 <template>
-  
+
 </template>
 
 <script>
@@ -23,6 +23,11 @@ export default {
       custom: true,
       default: '',
     },
+    heading: {
+      type: String,
+      custom: true,
+      default: '',
+    },
     latlng: {
       type: Array,
     },
@@ -32,7 +37,8 @@ export default {
     if (this.latlng) {
       var popup = L.popup()
         .setLatLng(this.latlng)
-        .setContent(this.content);
+        .setContent('<h3>'+this.heading+'</h3><p>'+this.content+'</p>');
+
 
       this.$nextTick(function () {
         this.openPopup(popup)
@@ -42,8 +48,7 @@ export default {
       });
     } else {
       this.$nextTick(function () {
-        this.$parent.$marker.bindPopup(this.content).openPopup();
-        //TODO: popup
+        this.$parent.$marker.bindPopup('<h3>'+this.heading+'</h3><p>'+this.content+'</p>').openPopup();
       })
     }
   },
