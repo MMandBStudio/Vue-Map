@@ -28,6 +28,11 @@ export default {
       custom: true,
       default: '',
     },
+    link: {
+      type: String,
+      custom: true,
+      default: '',
+    },
     latlng: {
       type: Array,
     },
@@ -48,7 +53,7 @@ export default {
       });
     } else {
       this.$nextTick(function () {
-        this.$parent.$marker.bindPopup('<h3>'+this.heading+'</h3><p>'+this.content+'</p>').openPopup();
+        this.$parent.$marker.bindPopup('<h3>'+this.heading+'</h3><p>'+this.content+'</p><p>'+this.link+'</p>').openPopup();
       })
     }
   },
