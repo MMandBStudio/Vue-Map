@@ -37,7 +37,7 @@ export default {
     if (this.latlng) {
       var popup = L.popup()
         .setLatLng(this.latlng)
-        .setContent('<h3>'+this.heading+'</h3><p>'+this.content+'</p>');
+        .setContent('<h3>'+this.heading+'</h3><p>'+this.content+'</p><p>'+this.link+'</p>');
 
 
       this.$nextTick(function () {
