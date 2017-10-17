@@ -38,10 +38,10 @@
   import { mapMutations } from 'vuex';
   import { mapGetters } from 'vuex';
   import Velocity from 'velocity-animate'
-  import MapKey from './keys/MapKey.vue'
-  import WildFlowerKey from './keys/WildFlowerKey.vue'
-  import BluebellKey from './keys/BluebellKey.vue'
-  import TreeKey from './keys/TreeKey.vue'
+  import MapKey from '../keys/MapKey.vue'
+  import WildFlowerKey from '../keys/WildFlowerKey.vue'
+  import BluebellKey from '../keys/BluebellKey.vue'
+  import TreeKey from '../keys/TreeKey.vue'
 
   export default {
     computed: {

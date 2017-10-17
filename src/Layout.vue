@@ -8,17 +8,27 @@
       <l-tooltip content="find lat lang"></l-tooltip>
     </l-marker>
 
-    <l-marker v-for="m in markers" :position="m.coords" :title="title" :opacity="opacity" :draggable="false">
-      <l-popup :heading="m.heading" :content="m.content" :link="m.link"></l-popup>
-    </l-marker>
+    <span v-if="showMarkers">
+      <l-marker v-for="m in markers" :position="m.coords" :title="title" :opacity="opacity" :draggable="false">
+        <l-popup :heading="m.heading" :content="m.content" :link="m.link"></l-popup>
+      </l-marker>
+    </span>
+
   </l-map>
 </div>
 </template>
 
 <script>
 import '../node_modules/leaflet/dist/leaflet.css';
+import { mapGetters } from 'vuex';
 
 export default {
+  computed: {
+    ...mapGetters([
+      'showMarkers'
+    ])
+  },
+
   data() {
     return {
       zoom: 2,

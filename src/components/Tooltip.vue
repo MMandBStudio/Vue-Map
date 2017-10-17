@@ -1,5 +1,5 @@
 <template>
-  
+
 </template>
 
 <script>
@@ -17,7 +17,7 @@ const events = [
 
 
 export default {
-  
+
   props: {
     content: {
       type: String,
@@ -29,9 +29,6 @@ export default {
   mounted() {
     this.$nextTick(function () {
       this.$parent.$marker.bindTooltip(this.content).openTooltip();
-      // events.forEach((event) => {
-      //   popup.on({ event, func: (ev) => { this.$emit(event, ev) } })
-      // })
     })
   }
 }

@@ -1,6 +1,6 @@
 import module from './vuex';
 import LMap from './components/Map.vue';
-import LTilelayer from './components/TileLayer.vue';
+import LTilelayer from './components/layers/TileLayer.vue';
 import LMarker from './components/Marker.vue';
 import LPopup from './components/Popup.vue';
 import LTooltip from './components/Tooltip.vue';

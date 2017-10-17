@@ -1,5 +1,6 @@
 <template>
   <div>
+    <l-toggle></l-toggle>
     <l-key ref="theKey"></l-key>
     <l-tile-select ref="selectTile" v-on:map="changeUrl"></l-tile-select>
   </div>
@@ -9,8 +10,9 @@
 import { mapMutations } from 'vuex';
 import { mapGetters } from 'vuex';
 import L from 'leaflet';
-import LTileSelect from './TileSelect.vue';
-import LKey from './Key.vue';
+import LTileSelect from '../custom/TileSelect.vue';
+import LKey from '../custom/Key.vue';
+import LToggle from '../custom/ToggleMarkerButton.vue';
 
 export default {
 
@@ -38,7 +40,8 @@ export default {
 
   components: {
     LTileSelect,
-    LKey
+    LKey,
+    LToggle
   },
 
   methods: {

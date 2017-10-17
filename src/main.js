@@ -12,7 +12,9 @@ const store = new Vuex.Store({
     key: 0,
     keyString: 'Map',
     // Holds the border colour of the kay drawer
-    borderColour: '#afdffd'
+    borderColour: '#afdffd',
+
+    showMarkers: false
   },
   getters: {
     /**
@@ -47,6 +49,17 @@ const store = new Vuex.Store({
         return state.borderColour === matchColour;
       }
     },
+
+    /**
+     * Get the show markers flag
+     * @param state
+     */
+    showMarkers: state => state.showMarkers,
+    getShowMarkers(state) {
+      return matchResult => {
+        return state.showMarkers === matchResult;
+      }
+    }
   },
   mutations: {
     /**
@@ -94,6 +107,16 @@ const store = new Vuex.Store({
         newColour = '#b1a8ea'
       }
       state.borderColour = newColour;
+    },
+
+    toggleMarkers(state, current) {
+      console.log('changing toggle from '+current);
+      if(current === true) {
+        state.showMarkers = false;
+      } else {
+        state.showMarkers = true;
+      }
+      console.log('    to '+current);
     }
   }
 });

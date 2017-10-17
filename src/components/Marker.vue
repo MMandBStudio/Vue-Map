@@ -51,7 +51,7 @@ export default {
     },
     visible: {
       type: Boolean,
-      custom: true,
+      custom: false,
       default: true,
     },
     opacity: {
@@ -70,6 +70,7 @@ export default {
       draggable: this.draggable,
       opacity: this.opacity,
       title: this.title,
+      visible: this.title
     };
 
     const marker = this.$marker = L.marker(this.position, options);
